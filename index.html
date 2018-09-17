@@ -6,8 +6,63 @@
 
 	<link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
 
-	<title>CTVA Project 1</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+	<link href="https://fonts.googleapis.com/css?family=Noto+Serif|Open+Sans" rel="stylesheet">
+
+	<link rel="stylesheet" href="screen.css">
+
+	<title>Home</title>
 </head>
+<!-----NAVIGATION BAR START-------->
+<header class="border-b md:flex md:items-center md:justify-between p-4 pb-0 shadow-lg md:pb-4">
+  
+  <!-- Logo text or image -->
+  <div class="flex items-center justify-between mb-4 md:mb-0">
+    <h1 class="leading-none text-2xl text-grey-darkest">
+      <a class="no-underline text-grey-darkest hover:text-black" href="index.html">
+        On The Verge
+      </a>
+    </h1>
+
+    <a class="text-black hover:text-orange md:hidden" href="#">
+      <i class="fa fa-2x fa-bars"></i>
+    </a>
+  </div>
+  <!-- END Logo text or image -->
+  
+  <!-- Search field -->
+  <form class="mb-4 w-full md:mb-0 md:w-1/4">
+    <label class="hidden" for="search-form">Search</label>
+    <input class="bg-grey-lightest border-2 focus:border-orange p-2 rounded-lg shadow-inner w-full" placeholder="Search" type="text">
+    <button class="hidden">Submit</button>
+  </form>
+  <!-- END Search field -->
+  
+  <!-- Global navigation -->
+  <nav>
+    <ul class="list-reset md:flex md:items-center">
+      <li class="md:ml-4">
+        <a class="block no-underline hover:underline py-2 text-grey-darkest hover:text-black md:border-none md:p-0" href="part1.html">
+          Nayarit
+        </a>
+      </li>
+      <li class="md:ml-4">
+        <a class="border-t block no-underline hover:underline py-2 text-grey-darkest hover:text-black md:border-none md:p-0" href="part2.html">
+          MX State
+        </a>
+      </li>
+      <li class="md:ml-4">
+        <a class="border-t block no-underline hover:underline py-2 text-grey-darkest hover:text-black md:border-none md:p-0" href="part3.html">
+          Guerrero
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <!---END NAVIGATION BAR--------->
+</header>
+
 <body>
 
 	<header class="bg-header flex items-center justify-center h-screen pb-12">
@@ -19,13 +74,13 @@
       Viva Mexico!
     </h1>
     <p class="text-lg">
-      Author Name
+      Tonantzin Vergara
     </p>
   </div>
 </header>
 
 <div class="font-serif leading-normal mx-auto py-12 px-4 max-w-lg">
-  <p class="mb-6 text-xl md:text-2xl uppercase">This is a simple parallax effect created by setting the background attachment property to a fixed position. This technique is not meant for non-decorative images, videos, etc. as those require additional HTML and CSS to work properly.</p>
+  <p class="mb-6 text-xl md:text-2xl uppercase">Mexico is unlike any other! Where else can you relax and enjoy doing nothing yet being able to do anything all in one place!</p>
   <p class="mb-4 text-lg">Quae commodi reiciendis dignissimos. Rerum molestiae hic dolores assumenda dolor! Corrupti reiciendis maxime fuga, recusandae obcaecati officia cum temporibus dicta quibusdam praesentium, magni, cumque aperiam iusto sequi illum molestiae non.</p>
   <p class="mb-4 text-lg">In excepturi repellendus eum, qui corrupti rerum perferendis harum adipisci voluptate? Nihil, quidem deleniti libero officia dicta vel asperiores velit molestiae blanditiis, dolore voluptatibus excepturi laudantium at veniam illo. Dolor!</p>
   <p class="mb-4 text-lg">Neque laudantium minus doloremque id quas quod sint velit corporis unde dolore accusantium delectus optio consequuntur voluptatem sapiente odit dolorum minima harum tenetur, dolor provident reprehenderit. Ex eum provident harum?</p>
@@ -67,7 +122,7 @@
 		   			<header class="lg:flex items-center lg:justify-between my-2">
 		   				<h2 class="text-base">
 		   					<a class="no-underline text-black hover:text-purple" href="part1.html"> 
-		   						Story Part One
+		   						Nayarit
 		   					</a>	
 		   				</h2>
 		   				<p class="text-base">
@@ -84,7 +139,7 @@
     			<header class="lg:flex items-center lg:justify-between my-2">
     				<h2 class="text-base">
     					<a class="no-underline text-black hover:text-red" href="part2.html">
-    						Nayarit
+    						Other State-Mx
     					</a>
     				</h2>
     				<p class="text-base">
