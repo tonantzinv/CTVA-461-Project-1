@@ -13,7 +13,7 @@
 }
 
 .bg-quote {
-  background: url(images/sky.jpg); center no-repeat;
+  background: url(images/sky.jpg) center center no-repeat;
   background-attachment: fixed;
 }
 
