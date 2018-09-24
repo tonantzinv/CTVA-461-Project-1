@@ -13,7 +13,7 @@
 }
 
 .bg-quote {
-  background: url(https://picsum.photos/1600/1600/?random) center center no-repeat;
+  background: url(images/sky.jpg); center center no-repeat;
   background-attachment: fixed;
 }
 
