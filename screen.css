@@ -17,6 +17,11 @@
   background-attachment: fixed;
 }
 
+.bq-quote1{
+	background: url(images/river.jpg) center center no-repeat;
+	background-attachment: fixed;
+}
+
 /*Load custom fonts*/
 
 .font-serif{
