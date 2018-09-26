@@ -18,10 +18,19 @@
 }
 
 .bg-quote-1 {
-	background: url(images/river.jpg) center center no-repeat;
+	background: url(images/nayarit.jpg) center center no-repeat;
 	background-attachment: fixed;
 }
 
+.bg-quote-2{
+	background:url(images/river.jpg) center center no-repeat;
+	background-attachment: fixed;
+}
+
+.bg-quote-3{
+	background: url(images/.jpg) center center no-repeat;
+	background-attachment: fixed;
+}
 /*Load custom fonts*/
 
 .font-serif{
