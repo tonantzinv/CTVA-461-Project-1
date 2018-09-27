@@ -8,7 +8,7 @@
  * your project.
  */
 .bg-header {
-  background: url(images/river.jpg) center center no-repeat;
+  background: url(images/guerrero-header.jpg) center center no-repeat;
   background-attachment: fixed;
 }
 
@@ -18,7 +18,7 @@
 }
 
 .bg-quote-1 {
-	background: url(images/nayarit.jpg) center center no-repeat;
+	background: url(images/beach.jpg) center center no-repeat;
 	background-attachment: fixed;
 }
 
@@ -28,7 +28,7 @@
 }
 
 .bg-quote-3{
-	background: url(images/.jpg) center center no-repeat;
+	background: url(images/family.jpg) center center no-repeat;
 	background-attachment: fixed;
 }
 /*Load custom fonts*/
