@@ -18,7 +18,7 @@
 }
 
 .bg-quote-1 {
-	background: url(images/beach.jpg) center center no-repeat;
+	background: url(images/me.jpg) center center no-repeat;
 	background-attachment: fixed;
 }
 
@@ -28,7 +28,7 @@
 }
 
 .bg-quote-3{
-	background: url(images/family.jpg) center center no-repeat;
+	background: url(images/chihuahua.jpg) center center no-repeat;
 	background-attachment: fixed;
 }
 /*Load custom fonts*/
